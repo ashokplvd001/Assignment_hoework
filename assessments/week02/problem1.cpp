@@ -14,9 +14,9 @@ using namespace std;	// using name space to use "cout" and "cin"
 
 int main()
 {
-	int n = 0;
+	int number = 0;
 	cout << "Enter the number : ";
-	cin >> n;
+	cin >> number;
 	
 	int temp = 0;		// to use for condition equations 
 	int pvalue = 0;		// to print the values 
@@ -27,7 +27,7 @@ int main()
 	{
 		cout << '*';		// for ever line starting  
 
-		if (i <= n)				// this will iterate first n times 
+		if (i <= number)				// this will iterate first n times 
 		{
 			temp = 2 * i ;
 			pvalue = 0; 

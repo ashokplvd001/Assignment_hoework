@@ -23,7 +23,7 @@ int main()
 
 	cout << "*\n";// first start in the patter 
 
-	for (int i = 1; i < 2 * n; i++)	// 2 * n - 1 times 
+	for (int i = 1; i < 2 * number; i++)	// 2 * n - 1 times 
 	{
 		cout << '*';		// for ever line starting  
 
@@ -41,7 +41,7 @@ int main()
 		}			
 		else// this will iterate from n + 1 to 2* n - 1 , of i value 
 		{
-			temp = 2 * ( ( 2* n ) - i ) ;
+			temp = 2 * ( ( 2* number ) - i ) ;
 			pvalue = 0;
 
 			for (int j = 1; j < temp; j++)

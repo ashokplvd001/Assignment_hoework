@@ -1,0 +1,9 @@
+#pragma once
+void arrayFun1();
+void arrayFun2();
+void arrayFun3();
+void arrayFun4();
+void arrayFun5();
+void arrayFun6();
+void arrayFun7();
+void arrayFun8();
